@@ -1,0 +1,30 @@
+
+<html>
+
+   <head>
+     <title>Planning Poker - Registrieren</title>
+     <link rel="stylesheet" type="text/css" href="css/signup.css">
+   </head>
+
+    <body>
+
+        <h1>Registrieren</h1><br><br>
+        <!-- mit action rufen wir das PHP-File auf, das die ganze Arbeit macht -->
+        <form action="signup.php" method="POST">
+   
+            <input type="text" name="firstname" placeholder="Vorname"><br>
+            <br><input type="text" name="lastname" placeholder="Nachname"><br>
+            <br><input type="text" name="email" placeholder="E-Mail"><br>
+            <br><input type="password" name="password" placeholder="Passwort"><br>
+            <br><input type="password" name="password2" placeholder="Passwort wiederholen"><br>
+            <br><br><button type="submit" name="submit">Registrieren</button>
+
+        </form>
+        <br>
+        <br>
+
+        <p>Bereits Nutzer? <a href="login.html">Hier</a>  geht's zur Anmeldung.</p>
+
+    </body>
+
+</html>

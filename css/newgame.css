@@ -1,0 +1,95 @@
+@font-face { font-family: thin; src: url('font/Raleway-Thin.ttf'); } 
+@font-face { font-family: thin-italic; src: url('font/Raleway-ThinItalic.ttf'); } 
+@font-face { font-family: extra-light-italic; src: url('font/Raleway-ExtraLightItalic.ttf'); } 
+@font-face { font-family: bold; src: url('font/Raleway-Bold.ttf'); } 
+
+*
+{
+text-align: center !important;
+
+}
+
+
+h1 { 
+    
+    padding-top: 10%;
+    font-family: thin; 
+    font-weight: normal;
+    font-size: 30pt;
+    color:rgb(82, 83, 83);
+    vertical-align: middle;
+}
+
+h2 { 
+
+    font-family: bold; 
+    font-weight: normal;
+    font-size: 30pt;
+    color:rgb(82, 83, 83);
+    vertical-align: middle;
+}
+
+input {
+    font-family: thin-italic;
+    font-size: 15pt;
+    border-radius: 50px;
+    width: 255pt;
+    height: 43pt;
+    border-width: 0.5pt;
+    border: 0.5pt solid;
+    border-color: rgb(129, 135, 133);
+    color: rgb(129, 135, 133);
+    text-align: left;
+}
+
+button {
+    background-color: rgb(166,205,212);
+    font-family: bold;
+    font-size: 15pt;
+    border-radius: 50px;
+    width: 255pt;
+    height: 43pt;
+    border-width: 0pt;
+    border: 0pt solid;
+    border-color: rgb(129, 135, 133);
+    color: white;
+}
+
+.add{
+    background-color: white;
+    font-family: thin;
+    font-size: 15pt;
+    border-radius: 50px;
+    width: 43pt;
+    height: 43pt;
+    border-width: 0.5pt;
+    border: 0.5pt solid;
+    border-color: rgb(129, 135, 133);
+    color: rgb(129, 135, 133);
+
+}
+
+.home{
+    background-color:white;
+    
+    
+
+    width: 48pt;
+    height: 48pt;
+    
+    border-radius: 0pt;
+    border-color: rgb(129, 135, 133);
+    color: gray;
+    
+    background:url('img/home.png') no-repeat;
+    background-size: 70%;
+}
+
+
+p { 
+    
+    font-family: extra-light-italic; 
+    font-weight: normal;
+    font-size: 10pt;
+    color:rgb(82, 83, 83)
+}
